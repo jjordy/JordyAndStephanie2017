@@ -13,6 +13,7 @@
     margin: 0;
     padding: 0;
     height: 100%;
+
   }
 
   *,
@@ -21,15 +22,32 @@
     box-sizing: inherit;
   }
 
-  .nice-text {
+  .Heading {
     font-family: 'Shadows Into Light', cursive;
-    // font-family: 'Patrick Hand', cursive;
-    // font-family: 'Rock Salt', cursive;
+  }
+
+  .Toolbar {
+    border-bottom: '2px solid #e7e7e7'
   }
 
   .navbar-text {
     font-size: 28px;
-    font-weight: 400;
     font-family: 'Shadows Into Light', cursive;
+  }
+
+  .map-container {
+    width: 60%;
+    max-width: 60%;
+    height: 60vh;
+    margin: auto;
+  }
+
+  @media (max-width: 768px) {
+    .map-container {
+      width: 90%;
+      margin: auto;
+      max-width: 90%;
+      height: 50vh;
+    }
   }
 }

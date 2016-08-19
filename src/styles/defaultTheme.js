@@ -24,7 +24,7 @@ const hello = {
     primary: colors.blue,
     secondary: colors.midgray,
     info: colors.blue,
-    error: colors.blue,
+    error: colors.red,
     success: colors.green,
     warning: colors.orange
   },
@@ -62,12 +62,6 @@ const hello = {
   },
   Message: {
     color: colors.black
-  },
-  Panel: {
-    borderWidth
-  },
-  PanelFooter: {
-    borderWidth
   },
   PageHeader: {
     borderWidth,
