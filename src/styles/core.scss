@@ -1,0 +1,35 @@
+:global {
+  @import 'base';
+  @import 'vendor/normalize';
+
+  // Some best-practice CSS that's useful for most apps
+  // Just remove them if they're not what you want
+  html {
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+  .nice-text {
+    font-family: 'Shadows Into Light', cursive;
+    // font-family: 'Patrick Hand', cursive;
+    // font-family: 'Rock Salt', cursive;
+  }
+
+  .navbar-text {
+    font-size: 28px;
+    font-weight: 400;
+    font-family: 'Shadows Into Light', cursive;
+  }
+}
